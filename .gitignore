@@ -1,0 +1,51 @@
+# Environment variables and secrets
+.env*
+!.env.example
+!**/.env.example
+*.env
+**/secrets/
+**/credentials/
+*credentials*.json
+*service-account*.json
+*secret*.json
+*token*.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.kdb
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+data/
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
+*.mdb
+*.accdb
+
+# Android & Gradle
+.gradle/
+**/.kotlin/
+build/
+*/build/
+app/build/
+local.properties
+*.apk
+*.aab
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
